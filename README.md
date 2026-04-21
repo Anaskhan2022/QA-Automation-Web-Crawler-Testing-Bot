@@ -1,24 +1,33 @@
 # 🔥 QA Automation Web Crawler Bot
 
+## 🧪 Project Overview
+This is a Selenium-based QA Automation Bot that performs **end-to-end website crawling and testing** in sequence flow. It automatically navigates through website pages, captures screenshots, filters unwanted URLs, and generates a complete HTML test report.
+
+---
+
 ## 🚀 Features
-- Automated website crawling
-- Line flow testing
-- Screenshot capturing
-- HTML report generation
-- Smart URL filtering (images, tags, dates, numeric URLs)
-- Partial report generation on stop
+- Automated website crawling (line-by-line flow testing)
+- Sequential page navigation (real QA flow simulation)
+- Screenshot capturing for each tested page
+- HTML report generation with test results
+- Smart URL filtering:
+  - Images (.png, .jpg, .webp, etc.)
+  - Tag & category pages
+  - Date-based URLs (/2024/02/13/)
+  - Numeric URLs (/123/)
+- Partial report generation on manual stop (CTRL + C support)
+
+---
 
 ## 🛠️ Tech Stack
-- Python
-- Selenium
+- Python 🐍
+- Selenium WebDriver 🤖
+- HTML Reporting 📊
 
-## ▶️ How to Run
-1. Install requirements:
-   pip install selenium
+---
 
-2. Run script:
-   python bot.py
+## ⚙️ How to Use
 
-## 📸 Output
-- Screenshots folder
-- QA_Report.html
+### 1️⃣ Install Requirements
+```bash
+pip install selenium
